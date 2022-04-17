@@ -1,28 +1,3 @@
-// function info(name = 'user', skill = 'my skill undefind', age = +'age undefind'){
-
-
-//     let ages = age ? 2023 - age : 'invalid';
-
-//     return `Hi i'm ${name}, I'm ${skill}, I'm ${ages} years old`;
-
-// };
-// console.log(info('Developer Rubel Hasan', ' Js Developer', 2000));
-
-
-// let mark = +prompt(`Please type your bangla result`);
-
-// let result = (mark <= 32) ? `You're Fial In this seasion` : `You're pass In this seasion`;
-
-// console.log(result ?? 'This Data Are Invalid');
-
-// if (mark <= 32 ) {
-//     console.log(`You're Fial In this seasion`);
-// } else {
-//     console.log(`You're pass In this seasion`);
-// }
-
-
-
 function getmarks(marks){
 
     let gpa;
@@ -64,4 +39,35 @@ function getmarksg(marks){
         cgpa = 5;
     }
     return cgpa;
+};
+
+
+/**
+ * Currency Converter
+*/
+
+function converter(amount, type){
+    let rate = 0;
+    switch (type) {
+        case 'USD':
+            rate = 86;
+            break;
+            
+        case 'Euro':
+            rate = 93;
+            break;
+
+        case 'CAD':
+            rate = 67;
+            break;
+        case 'Pound':
+            rate = 114;
+            break;
+    }
+    console.log(`
+        Name = ${names}
+        Your total amount in Bangladesy taka....
+        
+        ${amount} ${type} = ${amount * rate} BDT
+    `);
 };
