@@ -49,9 +49,9 @@ console.log(`
     Your Mark sheet          :
     Subject            Marks         Grad             CGPA
     Bangla             ${b}             ${getmarks(b)}               ${getmarksg(b)}
-    English            ${e}             ${getmarks(e)}                ${getmarksg(e)}
-    Math               ${m}             ${getmarks(m)}                ${getmarksg(m)}
-    Social             ${s}             ${getmarks(s)}                ${getmarksg(s)}
+    English            ${e}             ${getmarks(e)}               ${getmarksg(e)}
+    Math               ${m}             ${getmarks(m)}               ${getmarksg(m)}
+    Social             ${s}             ${getmarks(s)}               ${getmarksg(s)}
     Islam              ${i}             ${getmarks(i)}               ${getmarksg(i)}
 
     Total Marks        ${total_marks}
